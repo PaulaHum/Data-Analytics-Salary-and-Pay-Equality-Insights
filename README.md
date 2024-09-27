@@ -321,6 +321,15 @@ To get a better understanding of these pay gaps, it would be helpful to:
 
 ✨ In conclusion, while the data indicates a pay gap between genders, **it is crucial to recognize that the problem not unique to women**. Addressing these disparities will require a comprehensive approach that will certainly benefit all employees in Montgomery County.✨
 
+## 📜 License
+
+🎉 **And that's it!** You're all set to further practice your data analytics skills with this nice little set of data. This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as you like. Happy analyzing!
+
+## 🔗 Source links:
+
+* Data Gov: https://catalog.data.gov/dataset/employee-salaries-2023 
+
+
 
 
 

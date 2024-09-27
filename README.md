@@ -1,15 +1,16 @@
 <img width="1631" alt="Screenshot 2024-09-27 at 10 12 38" src="https://github.com/user-attachments/assets/ee29267d-256b-411e-b9c4-a189ba49283c">
 
 ## Project Overview 
-Welcome to the Salary and Pay Equality Insights project, where we dive deep into salary data from Montgomery County, MD, in 2023. Using the magic of Excel (yes, Excel – still a powerhouse!), this project analyzes pay trends, wage disparities between men and women, and provides some eye-opening statistics. 🌟
+Welcome to the **Salary and Pay Equality Insights project**, where we dive deep into salary data from Montgomery County, MD paid in 2023. Using the magic of Excel (yes, Excel – still a powerhouse!), this project analyzes pay trends, wage disparities between men and women, and provides some eye-opening statistics. 🌟
 
 ### Analytical Methods Used:
 
 * **Descriptive Statistics** – talking averages, standard deviation, the highest and lowest salaries plus, some handy histograms to visualize the spread.
-* **Pareto Analysis** – Ever heard of the 80/20 rule? Let's see if that's a true that small percentage of employees can impact a large portion of payroll.
-* **Correlation & Regression Analysis** – Want to know how variables like gender correlate with salary? Let's check this out.
+* **Pareto Analysis** – Ever heard of the 80/20 rule? Let's see if that's true that small percentage of Departments can impact a large portion of payroll.
+* **Correlation & Regression Analysis** – Want to know how variables like gender correlate with the salary? I've got you covered.
 
-### Fun Facts About Montgomery County, MD 🎉
+### Interesting Facts About Montgomery County, MD 🏞️
+
 Montgomery County is home to Great Falls, one of the most stunning natural attractions in the region, offering breathtaking views and a chance to feel like you're living inside a postcard.
 The county boasts some serious history – it’s where George Washington crossed the Potomac to reach Georgetown.
 This area is part of the DC Metro region, so it’s a hotbed for politics, innovation, and, of course, salary data worth analyzing!

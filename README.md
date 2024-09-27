@@ -16,7 +16,7 @@ The county boasts some serious history – it’s where George Washington crosse
 This area is part of the DC Metro region, so it’s a hotbed for politics, innovation, and, of course, salary data worth analyzing!
 
 ## Key Statistics 🏆
-Curious which departments are raking it in after hours or where the Big Bucks are? Before we get into the data nitty-gritty, here are some quick and fun stats.
+Curious which departments are raking it in after hours or where the Big Bucks are? Before we get into the data nitty-gritty, here are some quick stats.
 
 <img width="1089" alt="Total Headcount" src="https://github.com/user-attachments/assets/3a111701-d7dc-4872-beca-16d522dcf613">
 
@@ -25,6 +25,9 @@ Curious which departments are raking it in after hours or where the Big Bucks ar
 <img width="1088" alt="Screenshot 2024-09-27 at 11 28 48" src="https://github.com/user-attachments/assets/d7bc9b7b-364a-42c7-a64a-466da9aebb61">
 
 <img width="1088" alt="Paid Longevity pay" src="https://github.com/user-attachments/assets/52c07c9c-98e3-4971-b4f9-868c23ec02be">
+
+## Introducing the Data and Problem
+
 
 ## Descriptive Analytics
 

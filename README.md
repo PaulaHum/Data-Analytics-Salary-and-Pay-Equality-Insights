@@ -26,10 +26,17 @@ Curious which departments are raking it in after hours or where the Big Bucks ar
 
 <img width="1088" alt="Paid Longevity pay" src="https://github.com/user-attachments/assets/52c07c9c-98e3-4971-b4f9-868c23ec02be">
 
-## Introducing the Data and Problem
+## Introducing the Data and Problem 📁
 
+The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.
+
+I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. It looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After the brief check, the set of 9,675 records was loaded to Excel spreadsheet.
+
+<img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
 
 ## Descriptive Analytics
+
+So let's go ahead and start out at a very high level. **Is there a gap between what women earn and what men earn in our company?**
 
 There is a significant difference in men and women pay. Average salary for men is higher by 5% than the average salary of women.
 

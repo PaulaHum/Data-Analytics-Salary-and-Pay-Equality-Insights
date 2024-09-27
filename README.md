@@ -329,6 +329,7 @@ To get a better understanding of these pay gaps, it would be helpful to:
 
 * Data Gov: https://catalog.data.gov/dataset/employee-salaries-2023 
 
+![Gif Banner-5](https://github.com/user-attachments/assets/13131057-aa42-4fe2-a313-1671c3098660)
 
 
 

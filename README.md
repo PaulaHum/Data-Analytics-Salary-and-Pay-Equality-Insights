@@ -87,6 +87,9 @@ Ok, again a source of amazement. When comparing the overall and female salaries 
 
 Correct. Women's minimum wage is 64% higher than men’s. That’s a huge gap! Women have a 64% higher minimum wage than men, suggesting that the lowest-paid women are better paid than the lowest-paid men.
 
+![DAproject2](https://github.com/user-attachments/assets/34084bd5-7ee8-4713-9667-95a7c756b9e3)
+
+
 
 
 

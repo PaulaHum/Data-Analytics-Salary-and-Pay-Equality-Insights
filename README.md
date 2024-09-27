@@ -59,6 +59,37 @@ If you think about that intuitively if 68 percent of all of our data is between 
 
 ![Gif Banner-3](https://github.com/user-attachments/assets/cb80d03c-b6f8-4630-a095-b444077ceedd)
 
+Let’s dig a bit dipper, but intuitively this looks like a pretty big standard deviation.
+
+So let's go out and calculate the standard deviation by each subsection between men and women. We are going to do standard deviation of a sample. Let’s start with calculating the female standard deviation. 
+
+<img width="781" alt="Screenshot 2024-09-27 at 11 51 19" src="https://github.com/user-attachments/assets/70ffc68e-394d-41b8-9833-9acbed0304f7">
+
+When looking at the number we can see that it is even **higher** than the overall standard deviation. Well, that’s a surprise, I didn’t expect that. This means that women's salaries are spread out quite widely when we look at the overall distribution. These are not tighten to the average. We could expect some outliers here.
+
+In order to have a better picture, we need to check the same for men. 
+
+<img width="748" alt="Screenshot 2024-09-18 at 11 27 56" src="https://github.com/user-attachments/assets/1f8bd5ae-12f3-47fd-89f2-a667521d2d58">
+
+These are a bit more grouped together but still, the male standard deviation is pretty big. There is no significant difference in standard deviation between men and women. Such situation could mean that there is a large disparity between the lowest and highest salaries in both subgroups.
+
+<img width="715" alt="Screenshot 2024-09-18 at 11 44 04" src="https://github.com/user-attachments/assets/988291f5-5cd4-4e72-a145-fd2d25a6c921">
+
+Let’s try to nail it down. We can start checking by using minimum and maximum. See if we can find where are the outliers.
+
+`` =MIN(number1, [number2], ...) ``
+
+<img width="773" alt="Screenshot 2024-09-18 at 11 52 40" src="https://github.com/user-attachments/assets/9ec42bc2-4895-4e77-b953-57b047e7b521">
+
+Ok, again a source of amazement. When comparing the overall and female salaries we can see that the minimum salary for woman is noticeably higher. It means that the minimum salary for male needs to be much lower, equal to the overall minimum. Let’s calculate that.
+
+<img width="748" alt="Screenshot 2024-09-18 at 11 58 54" src="https://github.com/user-attachments/assets/94c2f342-e068-4931-81a5-8608102b4700">
+
+Correct. Women's minimum wage is 64% higher than men’s. That’s a huge gap! Women have a 64% higher minimum wage than men, suggesting that the lowest-paid women are better paid than the lowest-paid men.
+
+
+
+
 
 
 

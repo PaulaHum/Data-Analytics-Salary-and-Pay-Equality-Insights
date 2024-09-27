@@ -1,6 +1,6 @@
 <img width="1631" alt="Screenshot 2024-09-27 at 10 12 38" src="https://github.com/user-attachments/assets/ee29267d-256b-411e-b9c4-a189ba49283c">
 
-## Project Overview 
+## Project Overview 🗺️
 Welcome to the **Salary and Pay Equality Insights project**, where we dive deep into salary data from Montgomery County, MD paid in 2023. Using the magic of **Excel** (yes, Excel – still a powerhouse!), this project analyzes pay trends, wage disparities between men and women, and provides some eye-opening statistics. 🌟
 
 ### Analytical Methods Used:
@@ -34,7 +34,7 @@ I've searched for some public data which that would be reliable and available fo
 
 <img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
 
-## Descriptive Analytics
+## Descriptive Analytics 👩‍🔬
 
 So, let's start at a very high level. **Is there a gap between what women earn and what men earn in Montgomery County, MD?**
 We can begin by looking at one of the most popular measures: the **average**. Let's first check this estimate for the entire dataset, and then we can break it down by men and women separately.
@@ -266,7 +266,7 @@ Ok, so Department of Health and Human Services and Fire and Rescue Services are 
 
 So even though we didn't learn too much here we still know that we can't just ignore any of these items. That’s what the Pareto analysis is for. We want some insights to stand out as say “look at us!”😉. We need to keep on digging and ask more questions. Remember, data analytics is all about asking more questions.
 
-## Correlation & Regression Analysis
+## Correlation Analysis 🪢
 
 The next thing we can do is to verify if there’s some **correlation between gender and salary**. Since we know that there is some disparity in this field, maybe it’s worth checking if there is any relation between these two variables. Let's start at the macro level, examining the entire company, and then move on to examining two departments that caught our attention during the Pareto analysis. So the questions we will ask here would be:
 
@@ -295,7 +295,7 @@ Ok, so we know that overall there is 5% difference in salary, so we know that me
 
 Alright, the correlation is a bit stronger in the Department of Police (-0,32) but still very small whereas in the Department of Health and Human Services is close to the overall correlation (-0,09). No point Is proven here.
 
-
+## Conclusion
 
 
 

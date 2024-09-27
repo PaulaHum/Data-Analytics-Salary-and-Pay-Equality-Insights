@@ -30,22 +30,20 @@ Curious which departments are raking it in after hours or where the Big Bucks ar
 
 The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.
 
-I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. It looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After the brief check, the set of 9,675 records was loaded to Excel spreadsheet.
+I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. It looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After a quick data cleanup, the set of 9,675 records was loaded to Excel spreadsheet.
 
 <img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
 
 ## Descriptive Analytics
 
-So let's go ahead and start out at a very high level. **Is there a gap between what women earn and what men earn in our company?**
-
-There is a significant difference in men and women pay. Average salary for men is higher by 5% than the average salary of women.
+So, let's start at a very high level. **Is there a gap between what women earn and what men earn in Montgomery County, MD?**
+We can begin by looking at one of the most popular measures: the **average**. Let's first check this estimate for the entire dataset, and then we can break it down by men and women separately.
 
 `` =AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...) ``
 
 <img width="896" alt="Screenshot 2024-09-18 at 10 19 00" src="https://github.com/user-attachments/assets/bf122182-72e1-437f-8f33-4ca8fbeca4d3">
 
-
-The average can be very very misleading because it doesn't tell us the full story.
+There is a significant difference in men and women pay. Average salary for men is higher by 5% than the average salary of women. However, the average can be very very misleading because it doesn't tell us the full story.
 
 We need to use **standard deviation** to help us start to understand what's going on with our average. So let’s go ahead and calculate the standard deviation of our data and maybe that will provide a little bit more clarity on to why there is this difference between men and women in terms of pay.
 

@@ -43,9 +43,8 @@ We can begin by looking at one of the most popular measures: the **average**. Le
 
 <img width="896" alt="Screenshot 2024-09-18 at 10 19 00" src="https://github.com/user-attachments/assets/bf122182-72e1-437f-8f33-4ca8fbeca4d3">
 
-There is a significant difference in men and women pay. Average salary for men is higher by 5% than the average salary of women. However, the average can be very very misleading because it doesn't tell us the full story.
 
-We need to use **standard deviation** to help us start to understand what's going on with our average. So let’s go ahead and calculate the standard deviation of our data and maybe that will provide a little bit more clarity on to why there is this difference between men and women in terms of pay.
+There is a significant difference in pay between men and women on a very high, company level. The average salary for men is 5% higher than the average salary for women. However, we need to remember that the average can be very very misleading because it doesn't tell us the full story. We need to use **standard deviation** to help us start to understand what's going on with our average. So let’s go ahead and calculate the standard deviation of our data and maybe that will provide a little bit more clarity on to why there is this difference between men and women in terms of pay.
 
 `` =STDEV.S(number1,[number2],…) ``
 
@@ -68,9 +67,9 @@ If you think about that intuitively if 68 percent of all of our data is between 
 
 ![Gif Banner-3](https://github.com/user-attachments/assets/cb80d03c-b6f8-4630-a095-b444077ceedd)
 
-Let’s dig a bit dipper, but intuitively this looks like a pretty big standard deviation.
+Let’s dig a bit dipper, but this looks like a pretty big standard deviation.
 
-So let's go out and calculate the standard deviation by each subsection between men and women. We are going to do standard deviation of a sample. Let’s start with calculating the female standard deviation. 
+So, let's go out and calculate the standard deviation by each subsection **between men and women**. We are going to do standard deviation of a sample. Let’s start with calculating the female standard deviation. 
 
 <img width="781" alt="Screenshot 2024-09-27 at 11 51 19" src="https://github.com/user-attachments/assets/70ffc68e-394d-41b8-9833-9acbed0304f7">
 
@@ -84,13 +83,13 @@ These are a bit more grouped together but still, the male standard deviation is 
 
 <img width="715" alt="Screenshot 2024-09-18 at 11 44 04" src="https://github.com/user-attachments/assets/988291f5-5cd4-4e72-a145-fd2d25a6c921">
 
-Let’s try to nail it down. We can start checking by using minimum and maximum. See if we can find where are the outliers.
+Let’s try to nail it down. We can start checking by using **minimum and maximum** salary. See if we can find where are the outliers.
 
 `` =MIN(number1, [number2], ...) ``
 
 <img width="773" alt="Screenshot 2024-09-18 at 11 52 40" src="https://github.com/user-attachments/assets/9ec42bc2-4895-4e77-b953-57b047e7b521">
 
-Ok, again a source of amazement. When comparing the overall and female salaries we can see that the minimum salary for woman is noticeably higher. It means that the minimum salary for male needs to be much lower, equal to the overall minimum. Let’s calculate that.
+Ok, again a source of amazement. When comparing the overall and female salaries we can see that the **minimum** salary for woman is noticeably higher. It means that the minimum salary for male needs to be much lower, equal to the overall minimum. Let’s calculate that.
 
 <img width="748" alt="Screenshot 2024-09-18 at 11 58 54" src="https://github.com/user-attachments/assets/94c2f342-e068-4931-81a5-8608102b4700">
 
@@ -147,13 +146,13 @@ So right away we see that there is some disparity in the overall pay. In order t
 
 Ok, now some disproportions are almost jumping out at us! Let’s extract information from what we see here🤓
 
-1. Departments where women earn more 👩: There are several departments where women earn more than men. Examples include for example: Community Engagement Cluster (9%), Board of Elections (9%), Correction and Rehabilitation (8%), Department of Technology and Enterprise Business Solutions (6%), Office of Human Resources (6%), County Council (5%). This could be due to a variety of reasons, including the greater number of women in senior positions in these departments.
+1. **Departments where women earn more 👩:** There are several departments where women earn more than men. Examples include for example: Community Engagement Cluster (9%), Board of Elections (9%), Correction and Rehabilitation (8%), Department of Technology and Enterprise Business Solutions (6%), Office of Human Resources (6%), County Council (5%). This could be due to a variety of reasons, including the greater number of women in senior positions in these departments.
 
-2. Departments with a clear gender pay gap in favour of men 👨: There are several departments where men earn significantly more than women. Examples include: Merit System Protection Board Department (59%), Ethics Commission (39%), Office of Grants Management (40%), Office of Legislative Oversight (29%). These differences may indicate barriers to career advancement for women or differences in the availability of top positions. This is clearly something that could be looked into even further.
+2. **Departments with a clear gender pay gap in favour of men 👨:** There are several departments where men earn significantly more than women. Examples include: Merit System Protection Board Department (59%), Ethics Commission (39%), Office of Grants Management (40%), Office of Legislative Oversight (29%). These differences may indicate barriers to career advancement for women or differences in the availability of top positions. This is clearly something that could be looked into even further.
 
-3. Large pay gaps, but in favour of women 👩: In the case of several departments, such as the Office of Food Systems Resilience (16%) and Alcohol Beverage Services (12%), women earn more than men. It would be worth investigating whether this is specific to the roles that women play in these departments or is the result of employment policies that are possibly unfavourable to men.
+3. **Large pay gaps, but in favour of women 👩:** In the case of several departments, such as the Office of Food Systems Resilience (16%) and Alcohol Beverage Services (12%), women earn more than men. It would be worth investigating whether this is specific to the roles that women play in these departments or is the result of employment policies that are possibly unfavourable to men.
 
-4. Lack of male employees👨: Women are employed in each of the 42 departments, however in 4 of them there are no men employed. These are: Office of Intergovernmental Relations Department, Office of Zoning and Administrative Hearings, Office of Racial Equity and Social Justice and Board of Appeals Department. This may mean that departments are dominated by women or are specific to roles in which men are not employed. However, this may again be the result of employment policies that are unfavourable to men. Since this cannot be verified simply by looking at the available data, this is clearly something that could be investigated further internally by the Montgomery County’s Office.
+4. **Lack of male employees👨:** Women are employed in each of the 42 departments, however in 4 of them there are no men employed. These are: Office of Intergovernmental Relations Department, Office of Zoning and Administrative Hearings, Office of Racial Equity and Social Justice and Board of Appeals Department. This may mean that departments are dominated by women or are specific to roles in which men are not employed. However, this may again be the result of employment policies that are unfavourable to men. Since this cannot be verified simply by looking at the available data, this is clearly something that could be investigated further internally by the Montgomery County’s Office.
 
 Alright, it looks that we’ve got a bit more idea on what is going on with our data, but do not rest on our laurels. Let's continue our investigation 🔎.
 
@@ -181,7 +180,7 @@ Once done, we can use columns Bin Name and Frequency and finally create our Hist
 
 <img width="1540" alt="Screenshot 2024-09-19 at 12 56 19" src="https://github.com/user-attachments/assets/06c51e66-788b-4ac4-9633-9759e88b8ab7">
 
-So, by looking at the diagram we can see a fairly normal distribution, nothing too crazy here. We have a few of lower level people, a lot in the middle, a few people in mid to upper management and then very few people in upper management. So the distribution looks fairly normal nothing too out of the ordinary. 
+So, by looking at the diagram we can see a **fairly normal distribution**, nothing too crazy here. We have a few of lower level people, a lot in the middle, a few people in mid to upper management and then very few people in upper management. So the distribution looks fairly normal nothing too out of the ordinary. 
 
 I would say that that’s all we can do with the histogram at this point. Sometimes the histogram will reveal the information to us and point things out we didn’t recognise before, but in this case the diagram seems fairly normal. Nothing stands out and that’s perfectly fine. Let’s move on to some different analysis.
 
@@ -200,7 +199,7 @@ Ok, let’s continue with our pivot table.
 
 <img width="418" alt="Screenshot 2024-09-23 at 22 02 55" src="https://github.com/user-attachments/assets/94feaf92-9389-4192-8ac8-b6b83bba8bc2">
 
-When we sort the data descending, we will see that 5 divisions with the highest average salary are: 
+When we sort the data descending, we will see that **5 divisions with the highest average salary are**: 
 
 * Office of Labor Relations
 * Ethics Commission
@@ -287,7 +286,7 @@ Now we can perform a correlation on our data.
 
 <img width="513" alt="Relationships Between Variables" src="https://github.com/user-attachments/assets/bc1e2da5-746b-4366-b19e-e73906d8be47">
 
-Ok, so we know that overall there is 5% difference in salary, so we know that men are getting paid more than women. Then we run a correlation and see that the relationship is tiny (-0,08). There is basically no relationship between gender in pay. So the answer is not that easy. We cannot say that men are earning more simply because they’re men. At least on the high level there is nothing that would confirm that theory. Ok, so let’s lower our level and check two departments which we have on our radar. Well maybe that would reveal that there is a stronger correlation and we can start to say: Eureka!
+Ok, so we know that overall there is 5% difference in salary, so we know that men are getting paid more than women. Then we run a correlation and see that the relationship is tiny (-0,08). There is basically no relationship between gender and pay. So the answer is not that easy. We cannot say that men are earning more simply because they’re men. At least on the high level there is nothing that would confirm that theory. Ok, so let’s lower our level and check two departments which we have on our radar. Well maybe that would reveal that there is a stronger correlation and we can start to say: Eureka!
 
 <img width="1185" alt="Screenshot 2024-09-24 at 22 12 26" src="https://github.com/user-attachments/assets/7db1a6fc-4eab-4479-85f9-cec6525ad0c3">
 

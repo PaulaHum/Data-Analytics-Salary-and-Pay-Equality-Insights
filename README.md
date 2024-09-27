@@ -295,7 +295,35 @@ Ok, so we know that overall there is 5% difference in salary, so we know that me
 
 Alright, the correlation is a bit stronger in the Department of Police (-0,32) but still very small whereas in the Department of Health and Human Services is close to the overall correlation (-0,09). No point Is proven here.
 
-## Conclusion
+## Conclusion 🥳
+
+Our deep dive into employee salaries in Montgomery County reveals some interesting findings about the pay differences between men and women. On **average, men earn 5% more than women**, however, the situation is more complex than simply identifying a gender pay gap. For instance, **women’s minimum wages are 64% higher than men’s**, meaning that the lowest-paid women actually earn more than their male counterparts. However, **men still dominate the highest salaries, with a maximum earning that’s 16% higher than women’s**, suggesting that men are more likely to occupy the highest-paying positions.
+
+### Key Takeaways 📋:
+
+* The **standard deviation** indicates that women’s as well as men’s salaries are spread out quite a bit, suggesting there are some outliers in both groups.
+  
+* When looking at **percentiles**, we see that 59% of women earn less than $93,000 compared to 53% of men, pointing out a noticeable difference in the lower salary brackets.
+  
+* The **Pareto analysis** highlights that certain departments, like the **Department of Permitting Services** and **Department of Health and Human Services**, have some pretty big pay disparities that deserve a closer look.
+  
+* Interestingly, the correlation between gender and salary across the board is minimal, though it’s slightly more pronounced in the **Department of Police**.
+
+* Surprisingly, **4 departments did not employ any men**. This is something that should definitely be looked into.
+
+### What to Explore Next 🔎:
+
+To get a better understanding of these pay gaps, it would be helpful to:
+
+* Dive into **department-specific salary data** to spot any trends 
+* Consider factors like **tenure, maternity leaves, education, and job grades** that might be affecting pay differences
+* Look into **hiring and promotion practices** to see how they impact gender representation in higher-paying jobs
+
+✨ In conclusion, while the data indicates a pay gap between genders, **it is crucial to recognize that the problem not unique to women**. Addressing these disparities will require a comprehensive approach that will certainly benefit all employees in Montgomery County.✨
+
+
+
+
 
 
 

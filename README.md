@@ -26,6 +26,14 @@ Curious which departments are raking it in after hours or where the Big Bucks ar
 
 <img width="1088" alt="Paid Longevity pay" src="https://github.com/user-attachments/assets/52c07c9c-98e3-4971-b4f9-868c23ec02be">
 
+### Men vs Women
+
+<img width="1077" alt="Screenshot 2024-09-29 at 22 33 46" src="https://github.com/user-attachments/assets/e10dfaca-11cc-4a10-ad26-c24fe80e6ca3">
+
+<img width="1084" alt="Screenshot 2024-09-29 at 22 32 41" src="https://github.com/user-attachments/assets/dc4ab38d-d28e-4857-96d4-611dcd1aa157">
+
+<img width="940" alt="Screenshot 2024-09-29 at 22 34 54" src="https://github.com/user-attachments/assets/f9c36e72-7983-4550-b156-23f5cba9ce92">
+
 ## Introducing the Data and Problem 📁
 
 The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.

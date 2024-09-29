@@ -197,9 +197,9 @@ I would say that that’s all we can do with the histogram at this point. Someti
 
 ## Pareto analysis ☯️
 
-Pareto analysis is a decision-making technique used to statistically separate the data entries into groups with the most or least effect on the data. It can help us determine if there are certain pieces of data that we should concentrate more on. In our case, Pareto analysis can help us decide whether the departments with the greatest pay gap contribute so little to overall compensation that they can be overlooked, or, on the contrary, contribute so much to overall earnings that they cannot be ignored. 
+Pareto analysis is a decision-making technique used to statistically separate the data entries into groups with the most or least effect on the data. It can help us determine **if there are certain pieces of data that we should concentrate more on**. In our case, Pareto analysis can help us decide whether the departments with the greatest pay gap contribute so little to overall compensation that they can be overlooked, or, on the contrary, contribute so much to overall earnings that they cannot be ignored. 
 
-Ok, so the easiest way to do Pareto analysis is to use a pivot table. Let’s set some questions we can ask in our analysis. The first one could be: Which 5 divisions have the highest salary, on average? You’re right we’ve already calculated it in our descriptive analysis, but this will be a good start for our pivot table. Before we begin, let’s remember about four departments in which there were no men employed (Ref. Picture 14). Since there is nothing to compare because these entities are entirely filled by women, I suggest we disregard them at that point. This of course should be a subject for further investigation (i.e. in terms of employment policy) but this will not be useful in our gender pay gap analysis. These departments are: 
+Ok, so the easiest way to do Pareto analysis is to use a pivot table. Let’s set some questions we can ask in our analysis. The first one could be: Which 5 departments have the highest salary, on average? You’re right we’ve already calculated it in our descriptive analysis, but this will be a good start for our pivot table. Before we begin, let’s remember about four departments in which there were no men employed. Since there is nothing to compare because these entities are entirely filled by women, I suggest we disregard them at that point. This of course should be a subject for further investigation (i.e. in terms of employment policy) but this will not be useful in our gender pay gap analysis. These departments are: 
 
 * Office of Intergovernmental Relations Department
 * Office of Zoning and Administrative Hearings
@@ -210,7 +210,7 @@ Ok, let’s continue with our pivot table.
 
 <img width="418" alt="Screenshot 2024-09-23 at 22 02 55" src="https://github.com/user-attachments/assets/94feaf92-9389-4192-8ac8-b6b83bba8bc2">
 
-When we sort the data descending, we will see that **5 divisions with the highest average salary are**: 
+When we sort the data descending, we will see that **5 depatrtments with the highest average salary are**: 
 
 * Office of Labor Relations
 * Ethics Commission
@@ -228,7 +228,7 @@ Let’s drag the information about the pay gap from our descriptive analysis tab
 
 Alright, that’s a good start but we need to remember that the average does not tell us the full story. We should always incorporate standard deviation with the average in order to have a more clear picture of what’s going on with the average. So let’s go ahead and calculate the standard deviation which is measuring variance and let's just see if that gives us any more information. 
 
-The next question we can ask is: **which 5 divisions have the highest variance?** We need to quickly update our pivot table and see that the results are:
+The next question we can ask is: **which 5 departments have the highest variance?** We need to quickly update our pivot table and see that the results are:
 
 * Offices of the County Executive
 * Merit System Protection Board Department
@@ -236,7 +236,7 @@ The next question we can ask is: **which 5 divisions have the highest variance?*
 * Office of Agriculture
 * Non-Departmental Account
 
-Worth mentioning is that for all of the above the standard deviation is pretty huge - from $42,989 up to $62,852 (remember that our standard deviation was around $30,000 ref. Picture 16). Again, to have a better view, let’s drag the pay gap data.
+Worth mentioning is that for all of the above the standard deviation is pretty huge - from $42,989 up to $62,852 (remember that our standard deviation was around $30,000). Again, to have a better view, let’s drag the pay gap data.
 
 <img width="883" alt="Screenshot 2024-09-23 at 22 18 27" src="https://github.com/user-attachments/assets/0da0bb3e-27ec-410c-866c-d758013c257f">
 
@@ -297,14 +297,14 @@ Now we can perform a correlation on our data.
 
 <img width="513" alt="Relationships Between Variables" src="https://github.com/user-attachments/assets/bc1e2da5-746b-4366-b19e-e73906d8be47">
 
-Ok, so we know that overall there is 5% difference in salary, so we know that men are getting paid more than women. Then we run a correlation and see that the relationship is tiny (-0,08). There is basically no relationship between gender and pay. So the answer is not that easy. We cannot say that men are earning more simply because they’re men. At least on the high level there is nothing that would confirm that theory. Ok, so let’s lower our level and check two departments which we have on our radar. Well maybe that would reveal that there is a stronger correlation and we can start to say: Eureka!
+Ok, so we know that overall there is 5% difference in salary, so we know that men are getting paid more than women. Then we run a correlation and see that the relationship is tiny (-0,08). **There is basically no relationship between gender and pay**. So the answer is not that easy. We cannot say that men are earning more simply because they’re men 😉. At least on the high level there is nothing that would confirm that theory. Ok, so let’s lower our level and check two departments which we have on our radar. Well maybe that would reveal that there is a stronger correlation and we can start to say: Eureka!
 
 <img width="1185" alt="Screenshot 2024-09-24 at 22 12 26" src="https://github.com/user-attachments/assets/7db1a6fc-4eab-4479-85f9-cec6525ad0c3">
 
 <img width="1361" alt="Screenshot 2024-09-24 at 22 13 56" src="https://github.com/user-attachments/assets/fb244a73-4707-411c-b4a9-ccd8bdb1858a">
 
 
-Alright, the correlation is a bit stronger in the Department of Police (-0,32) but still very small whereas in the Department of Health and Human Services is close to the overall correlation (-0,09). No point Is proven here.
+Alright, the correlation is a bit stronger in the Department of Police (-0,32) but still very small whereas in the Department of Health and Human Services is close to the overall correlation (-0,09). No point is proven here.
 
 ## Conclusion 🥳
 
@@ -318,9 +318,9 @@ Our deep dive into employee salaries in Montgomery County reveals some interesti
   
 * The **Pareto analysis** highlights that certain departments, like the **Department of Permitting Services** and **Department of Health and Human Services**, have some pretty big pay disparities that deserve a closer look.
   
-* Interestingly, the correlation between gender and salary across the board is minimal, though it’s slightly more pronounced in the **Department of Police**.
+* Interestingly, the **correlation** between gender and salary across the board is minimal, though it’s slightly more pronounced in the **Department of Police**.
 
-* Surprisingly, **4 departments did not employ any men**. This is something that should definitely be looked into.
+* Surprisingly, **4 departments do not employ any men**. This is something that should definitely be looked into.
 
 ### What to Explore Next 🔎:
 
@@ -330,14 +330,15 @@ To get a better understanding of these pay gaps, it would be helpful to:
 * Consider factors like **tenure, maternity leaves, education, and job grades** that might be affecting pay differences
 * Look into **hiring and promotion practices** to see how they impact gender representation in higher-paying jobs
 
-✨ In conclusion, while the data indicates a pay gap between genders, **it is crucial to recognize that the problem not unique to women**. Addressing these disparities will require a comprehensive approach that will certainly benefit all employees in Montgomery County.✨
+✨ In conclusion, while the data indicates a pay gap between genders, **it is crucial to recognize that the problem not unique to women**. Addressing these disparities will require a comprehensive approach that will certainly benefit all employees in Montgomery County, despite the gender.✨
 
 ## 📜 License
 
 🎉 **And that's it!** You're all set to further practice your data analytics skills with this nice little set of data. This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as you like. Happy analyzing!
 
-## 🔗 Source links:
+## 🔗 Links:
 
+The original dataset can be found:
 * Data Gov: https://catalog.data.gov/dataset/employee-salaries-2023 
 
 ![Gif Banner-5](https://github.com/user-attachments/assets/13131057-aa42-4fe2-a313-1671c3098660)

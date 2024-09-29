@@ -11,12 +11,13 @@ Welcome to the **Salary and Pay Equality Insights project**, where we dive deep 
 
 ### Interesting Facts About Montgomery County, MD 🏞️
 
-Montgomery County is home to Great Falls, one of the most stunning natural attractions in the region, offering breathtaking views and a chance to feel like you're living inside a postcard.
+Before we begin, let's briefly take a look at a place that we will be mentioning frequently in this project. 
+**Montgomery County** is home to Great Falls, one of the most stunning natural attractions in the region, offering breathtaking views and a chance to feel like you're living inside a postcard.
 The county boasts some serious history – it’s where George Washington crossed the Potomac to reach Georgetown.
-This area is part of the DC Metro region, so it’s a hotbed for politics, innovation, and, of course, salary data worth analyzing!
+This area is part of the DC Metro region, so it’s a hotbed for politics, innovation, and, of course, salary data worth analyzing! 
 
 ## Key Statistics 🏆
-Curious which departments are raking it in after hours or where the Big Bucks are? Before we get into the data nitty-gritty, here are some quick stats.
+Curious which departments earn the most after hours or where the Big Bucks are? Before we get into the data nitty-gritty, here are some quick stats.
 
 <img width="1089" alt="Total Headcount" src="https://github.com/user-attachments/assets/3a111701-d7dc-4872-beca-16d522dcf613">
 
@@ -38,7 +39,7 @@ Curious which departments are raking it in after hours or where the Big Bucks ar
 
 The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.
 
-I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. It looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After a quick data cleanup, the set of 9,675 records was loaded to Excel spreadsheet.
+I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. It looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After a quick data cleanup, the set of **9,675** records was loaded to Excel spreadsheet.
 
 <img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
 
@@ -52,7 +53,7 @@ We can begin by looking at one of the most popular measures: the **average**. Le
 <img width="896" alt="Screenshot 2024-09-18 at 10 19 00" src="https://github.com/user-attachments/assets/bf122182-72e1-437f-8f33-4ca8fbeca4d3">
 
 
-There is a significant difference in pay between men and women on a very high, company level. The average salary for men is 5% higher than the average salary for women. However, we need to remember that the average can be very very misleading because it doesn't tell us the full story. We need to use **standard deviation** to help us start to understand what's going on with our average. So let’s go ahead and calculate the standard deviation of our data and maybe that will provide a little bit more clarity on to why there is this difference between men and women in terms of pay.
+We can see that **there is a significant difference in pay between men and women on a very high, company's level. **The average salary for men is 5% higher than the average salary for women**. However, we need to remember that the average can be very very misleading because it doesn't tell us the full story. We need to use **standard deviation** to help us start to understand what's going on with our average. So let’s go ahead and calculate the standard deviation of our data and maybe that will provide a little bit more clarity on to why there is this difference between men and women in terms of pay.
 
 `` =STDEV.S(number1,[number2],…) ``
 
@@ -62,11 +63,11 @@ That means 68 percent of our data is between negative 1 standard deviation and o
 
 <img width="631" alt="68 of all data falls within" src="https://github.com/user-attachments/assets/12b39a83-f8f9-4f2e-9cb1-15763a1e20f1">
 
-So it means 68 percent of our data is between **$59,951** and **$121,500**
+So it means **68%** of our data is between **$59,951** and **$121,500**
 
 <img width="763" alt="Screenshot 2024-09-18 at 10 59 07" src="https://github.com/user-attachments/assets/1f15a101-7117-4ad2-8dd5-9fea577cadb0">
 
-and then 95 percent of our data is between **$29,177** and **$152,274**.
+and then **95%** of our data is between **$29,177** and **$152,274**.
 
 <img width="774" alt="Screenshot 2024-09-18 at 10 59 36" src="https://github.com/user-attachments/assets/baf5cd63-5d85-452a-acb4-f25a136ea348">
 
@@ -81,13 +82,13 @@ So, let's go out and calculate the standard deviation by each subsection **betwe
 
 <img width="781" alt="Screenshot 2024-09-27 at 11 51 19" src="https://github.com/user-attachments/assets/70ffc68e-394d-41b8-9833-9acbed0304f7">
 
-When looking at the number we can see that it is even **higher** than the overall standard deviation. Well, that’s a surprise, I didn’t expect that. This means that women's salaries are spread out quite widely when we look at the overall distribution. These are not tighten to the average. We could expect some outliers here.
+When looking at the number we can see that **female's standard deviation is even higher** than the overall standard deviation. Well, that’s a surprise, I didn’t expect that. This means that women's salaries are spread out quite widely when we look at the overall distribution. These are not tighten to the average. We could expect some outliers here.
 
 In order to have a better picture, we need to check the same for men. 
 
 <img width="748" alt="Screenshot 2024-09-18 at 11 27 56" src="https://github.com/user-attachments/assets/1f8bd5ae-12f3-47fd-89f2-a667521d2d58">
 
-These are a bit more grouped together but still, the male standard deviation is pretty big. There is no significant difference in standard deviation between men and women. Such situation could mean that there is a large disparity between the lowest and highest salaries in both subgroups.
+These are a bit more grouped together but still, the male's standard deviation is pretty big. **There is no significant difference in standard deviation between men and women**. Such situation could mean that there is a large disparity between the lowest and highest salaries in both subgroups.
 
 <img width="715" alt="Screenshot 2024-09-18 at 11 44 04" src="https://github.com/user-attachments/assets/988291f5-5cd4-4e72-a145-fd2d25a6c921">
 
@@ -97,11 +98,11 @@ Let’s try to nail it down. We can start checking by using **minimum and maximu
 
 <img width="773" alt="Screenshot 2024-09-18 at 11 52 40" src="https://github.com/user-attachments/assets/9ec42bc2-4895-4e77-b953-57b047e7b521">
 
-Ok, again a source of amazement. When comparing the overall and female salaries we can see that the **minimum** salary for woman is noticeably higher. It means that the minimum salary for male needs to be much lower, equal to the overall minimum. Let’s calculate that.
+Ok, again a source of amazement. When comparing the overall and female salaries we can see that the **minimum salary for women is noticeably higher**. It means that the minimum salary for male needs to be much lower, equal to the overall minimum. Let’s calculate that.
 
 <img width="748" alt="Screenshot 2024-09-18 at 11 58 54" src="https://github.com/user-attachments/assets/94c2f342-e068-4931-81a5-8608102b4700">
 
-Correct. Women's minimum wage is 64% higher than men’s. That’s a huge gap! Women have a 64% higher minimum wage than men, suggesting that the lowest-paid women are better paid than the lowest-paid men.
+Correct. **Women's minimum wage is 64% higher than men’s**. That’s a huge gap! Women have a 64% higher minimum wage than men, suggesting that the lowest-paid women are better paid than the lowest-paid men.
 
 ![DAproject2](https://github.com/user-attachments/assets/34084bd5-7ee8-4713-9667-95a7c756b9e3)
 
@@ -111,7 +112,7 @@ Let’s look at the **maximum** salaries for both groups.
 
 <img width="775" alt="Screenshot 2024-09-18 at 12 47 33" src="https://github.com/user-attachments/assets/321bdf01-84fb-4caa-a08b-f90b5619096d">
 
-In this case, the maximum overall salary is equal to men's maximum salary and is 16% higher than women's salary. Again, that seems to be a big disproportion. Men have higher maximum earnings ($292,000) than women ($246,162), a difference of -16%. This may suggest that men dominate the highest-paid roles.
+In this case, **the maximum overall salary is equal to men's maximum salary and is 16% higher than women's salary**. Again, that seems to be a big disproportion. Men have higher maximum earnings ($292,000) than women ($246,162), a difference of 16%. This may suggest that men dominate the highest-paid roles.
 
 Values ​​such as the minimum wage ($11,147 for men) and maximum wage ($292,000 for men) suggest the existence of some "outliers" - workers with extremely low or high wages, especially among men.
 
@@ -129,22 +130,24 @@ By calculating what percentage salaries are below $93,000, we start to get a sen
 
 We can see that 59% of all women are paid below $93,000 so that means there are more salaries below ninety three thousand for women than for men. We can easily prove that by looking at the percentile for men. Looking at the outcome we can see that only 53% of the men are being paid less than ninety three thousand. The difference is about **11%**.
 
-📁Let’s put the puzzle together and summarise what we have gathered so far: 
+🧩 Let’s put the puzzles together and summarise what we have gathered so far: 
 
 * We know that men are getting paid more than women by about a factor of 5 percent.
-* And we know that there are more lower paid women than lower paid men (59% of the women are lower paid and only 53% percent of men are lower paid)
+* And we know that there are more lower paid women than lower paid men (59% of the women are lower paid and only 53% percent of men are lower paid).
+* There is no significant difference in standard deviation between men and women.
+* Women's minimum wage is 64% higher than men’s.
+* men's maximum salary is 16% higher than women's salary.
 
 Hang on, there should be something going on here.
 ![DAproject3](https://github.com/user-attachments/assets/ffcb50e7-3249-4775-ab6d-b825bed19618)
 
-Well, maybe there's some division that is getting paid significantly more than some other department?
-And so let's go ahead and break out the salaries by division and let's just see if there's some department
-that's getting paid way more than another department. And maybe, by any chance that division has more men than woman. We need to check that hypothesis. 
+Well, **maybe there's some division that is getting paid significantly more than some other department?**
+And so let's go ahead and break down the salaries by division and let's just see if there's some department that's getting paid way more than another department. And maybe, by any chance, that department has more men than women. We need to check that hypothesis. 
 
 Let’s dive in!
 ![Gif Banner-4](https://github.com/user-attachments/assets/8262725f-a850-4f9e-90d1-d747b13193d6)
 
-Firstly let’s go ahead and break out the average salary by department for the whole workforce and then between women and men. 
+Firstly let’s go ahead and break down the average salary by department for the whole workforce and then between women and men. 
 
 <img width="619" alt="Screenshot 2024-09-18 at 23 06 29" src="https://github.com/user-attachments/assets/bb89e6c1-0ca1-4689-8a79-67108717b628">
 
@@ -158,7 +161,7 @@ Ok, now some disproportions are almost jumping out at us! Let’s extract inform
 
 2. **Departments with a clear gender pay gap in favour of men 👨:** There are several departments where men earn significantly more than women. Examples include: Merit System Protection Board Department (59%), Ethics Commission (39%), Office of Grants Management (40%), Office of Legislative Oversight (29%). These differences may indicate barriers to career advancement for women or differences in the availability of top positions. This is clearly something that could be looked into even further.
 
-3. **Large pay gaps, but in favour of women 👩:** In the case of several departments, such as the Office of Food Systems Resilience (16%) and Alcohol Beverage Services (12%), women earn more than men. It would be worth investigating whether this is specific to the roles that women play in these departments or is the result of employment policies that are possibly unfavourable to men.
+3. **Large pay gaps, but in favour of women 👩:** In case of several departments, such as the Office of Food Systems Resilience (16%) and Alcohol Beverage Services (12%), women earn more than men. It would be worth investigating whether this is specific to roles that women play in these departments or is the result of employment policies that are possibly unfavourable to men.
 
 4. **Lack of male employees👨:** Women are employed in each of the 42 departments, however in 4 of them there are no men employed. These are: Office of Intergovernmental Relations Department, Office of Zoning and Administrative Hearings, Office of Racial Equity and Social Justice and Board of Appeals Department. This may mean that departments are dominated by women or are specific to roles in which men are not employed. However, this may again be the result of employment policies that are unfavourable to men. Since this cannot be verified simply by looking at the available data, this is clearly something that could be investigated further internally by the Montgomery County’s Office.
 
@@ -166,7 +169,7 @@ Alright, it looks that we’ve got a bit more idea on what is going on with our 
 
 ## Creating a Histogram 📶
 
-The best way to see how our data is distributed, would be to create a histogram. Maybe there's a lot of data skewing to the right or a lot of data skewing to the left or maybe it's all come true on the average. By creating a histogram we can visualise what’s going on with our salaries. Therefore, without further due, let’s do it!
+The best way to see how our data is distributed, would be to create a histogram. Maybe there's a lot of data skewing to the right or a lot of data skewing to the left or maybe it all sticks close to the average. By creating a histogram we can visualise what’s going on with our salaries. Therefore, without further due, let’s do create one!
 
 <img width="346" alt="Creating a Histogram" src="https://github.com/user-attachments/assets/57e2a95f-e868-428a-a5fa-745aa2d61104">
 

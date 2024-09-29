@@ -16,6 +16,14 @@ Before we begin, let's briefly take a look at a place that we will be mentioning
 The county boasts some serious history – it’s where George Washington crossed the Potomac to reach Georgetown.
 This area is part of the DC Metro region, so it’s a hotbed for politics, innovation, and, of course, salary data worth analyzing! 
 
+## Introducing the Data and Problem 📁
+
+The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.
+
+I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. As stated on the official government website, the dataset contains annual salary information including gross pay and overtime pay for all active, permanent employees of Montgomery County, MD paid in calendar year 2023. The file looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After a quick data cleanup, the set of **9,675** records was loaded to Excel spreadsheet.
+
+<img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
+
 ## Key Statistics 🏆
 Curious which departments earn the most after hours or where the Big Bucks are? Before we get into the data nitty-gritty, here are some quick stats.
 
@@ -34,14 +42,6 @@ Curious which departments earn the most after hours or where the Big Bucks are? 
 <img width="1084" alt="Screenshot 2024-09-29 at 22 32 41" src="https://github.com/user-attachments/assets/dc4ab38d-d28e-4857-96d4-611dcd1aa157">
 
 <img width="940" alt="Screenshot 2024-09-29 at 22 34 54" src="https://github.com/user-attachments/assets/f9c36e72-7983-4550-b156-23f5cba9ce92">
-
-## Introducing the Data and Problem 📁
-
-The gender pay gap is still a common issue today, with women often earning less than men for similar work. It's a topic worth exploring, as it raises important questions about fairness and equality in the workplace. Analyzing this issue can reveal interesting insights into how salaries are structured and possibly (hopefully!) where improvements can be made.
-
-I've searched for some public data which that would be reliable and available for analysis. After some research I came across the **Employee Salaries - 2023** of Montgomery County of Maryland. As stated on the official government website, the dataset contains annual salary information including gross pay and overtime pay for all active, permanent employees of Montgomery County, MD paid in calendar year 2023. The file looked great so I've started my adventure right away! I've loaded the CSV file via Power Query and did a quick check of the dataset. The file was in great condition, nothing messy (no blanks, invalid formats etc.) just removed some duplicates (617). After a quick data cleanup, the set of **9,675** records was loaded to Excel spreadsheet.
-
-<img width="1645" alt="Screenshot 2024-09-27 at 13 46 59" src="https://github.com/user-attachments/assets/bccb1fb7-c824-499e-96a3-9269911de9b3">
 
 ## Descriptive Analytics 👩‍🔬
 

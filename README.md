@@ -1,7 +1,7 @@
 <img width="1631" alt="Screenshot 2024-09-27 at 10 12 38" src="https://github.com/user-attachments/assets/ee29267d-256b-411e-b9c4-a189ba49283c">
 
 ## Project Overview 🗺️
-Welcome to the **Salary and Pay Equality Insights project**, where we dive deep into salary data from Montgomery County, MD paid in 2023. Using the magic of **Excel** (yes, Excel – still a powerhouse!), this project analyzes pay trends, wage disparities between men and women, and provides some eye-opening statistics. 🌟
+Welcome to the **Salary and Pay Equality Insights project**, where we dive deep into salary data from Montgomery County, MD paid in 2023. Using the magic of **Excel** (yes, Excel – still a powerhouse!), this project analyzes pay trends, wage disparities between men and women, and provides some truly surprising statistics. It’s designed in such a way that you can open your own workbook and follow me through the analysis. I hope you enjoy it!🌟
 
 ### Analytical Methods Used:
 

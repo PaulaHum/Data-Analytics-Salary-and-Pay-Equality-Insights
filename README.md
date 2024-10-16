@@ -7,8 +7,7 @@ Welcome to the **Salary and Pay Equality Insights project**, where we dive deep 
 
 * **Descriptive Statistics** – talking averages, standard deviation, the highest and lowest salaries plus, some handy histograms to visualize the spread.
 * **Pareto Analysis** – Ever heard of the 80/20 rule? Let's see if that's true that small percentage of Departments can impact a large portion of payroll.
-* **Correlation Analysis** – Want to know how variables like gender correlate with the salary? I've got you covered.
-
+* **Correlation Analysis** – Want to know how variables like gender correlate with the salary? I've got you covered ⛱️.
 ### Interesting Facts About Montgomery County, MD 🏞️
 
 Before we begin, let's briefly take a look at a place that we will be mentioning frequently in this project. 
